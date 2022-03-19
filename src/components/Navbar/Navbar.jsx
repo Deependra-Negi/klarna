@@ -25,7 +25,7 @@ function Navbar() {
           <div style={{marginRight:"50px"}}>
             <img id="logo" src="black.svg" alt="Klarna" />
           </div>{" "}
-          <div className="navtab" style={{display:"flex", gap:"30px", fontWeight:"bold", cursor:"pointer", fontSize:"1rem", textOverflow: "ellipsis",whiteSpace:"nowrap"}}>
+          <div className="navtab">
             <div>Shop</div> <div>How it works</div> <div>Play in 4</div>{" "}
             <div>The shopping app</div> <div>Help</div>
           </div>

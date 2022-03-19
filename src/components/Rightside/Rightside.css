@@ -126,4 +126,15 @@ img{
   min-width: 40%;
   border-radius: 15px;
 }
+}
+@media (max-width: 390px) {
+    .upto{
+        font-size: 1.5rem;
+    }
+    .disc{
+        font-size: 2.5rem;
+    }
+    .off{
+        font-size: 1.5rem;   
+    }
 } 

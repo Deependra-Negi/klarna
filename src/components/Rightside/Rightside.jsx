@@ -17,7 +17,7 @@ function Rightside() {
           <div key={i}>
                 <img class="itemImg" src={el.image} alt="img"></img>
                 <p>{el.name}</p>
-                <p>Everything you need for a flawless skin</p>
+                <p>{el.desc}</p>
           </div>
         ))}
       </div>

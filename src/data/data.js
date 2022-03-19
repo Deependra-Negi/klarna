@@ -1,326 +1,359 @@
 export const data = [
   {
-    name: "Power Sport",
+    name: "Saks OFF 5th",
     distance: 10,
     rating: 2,
     online: false,
+    desc:"Fierce, fine jewelry",
     discount: 15,
     image:
-      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/faf74a17-6aa5-4e39-a612-3c15bf695ef8.png&w=640&q=75",
+      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/7a44f1d9-4c53-47d8-bb97-21ae0dd810e7.png&w=384&q=75",
   },
   {
-    name: "FullCity 2",
+    name: "Nike",
     distance: 10,
     rating: 2,
     online: true,
+    desc:"Be unstoppable",
     discount: 21,
-    image:
-      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/28272ba4-2cce-4468-9caa-eefeec516042.jpeg&w=640&q=75",
+    image:"https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/234cd03c-e006-4cd8-9b6f-b34535d33b44.png&w=640&q=75",
   },
   {
-    name: "Ride 2",
+    name: "Feelunique",
     distance: 20,
     rating: 5,
     online: false,
+    desc:"Everything you need for flawless skin",
     discount: 20,
     image:
-      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/e1f309cd-eef6-484f-ab54-25f48c37ab34.png&w=640&q=75",
+      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/00797fa3-0125-4fa6-81e6-73321640e4f7.png&w=640&q=75",
   },
   {
-    name: "Kenton",
+    name: "Tommy Hilfiger",
     distance: 20,
     rating: 2,
     online: true,
+    desc:"Even more fresh styles",
     discount: 10,
     image:
-      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/574c903f-615d-49de-aa97-5c9d25381136.png&w=640&q=75",
+      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/88ad0ecd-0015-45b0-80e1-ccdf88a3645e.jpeg&w=640&q=75",
   },
   {
-    name: "Power Sport 1",
+    name: "Cole Haan",
     distance: 15,
     rating: 4,
     online: true,
+    desc:"Treat your feet",
     discount: 10,
     image:
-      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/4c263e2e-e3a4-4d97-ab81-2659300d344f.png&w=640&q=75",
+      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/bfb8346f-8876-42b6-81c4-b4823f5c54ae.jpeg&w=640&q=75",
   },
   {
-    name: "Ride 1",
+    name: "Jared The Galleria Of Jewelry",
     distance: 17,
     rating: 4,
     online: false,
+    desc:"Shimmer and shine",
     discount: 10,
     image:
-      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/83205c67-8a2c-4d31-b5c8-da21880f9483.png&w=640&q=75",
+      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/b61d18bb-16e8-49a2-9ebb-05ed2ead3b1c.jpeg&w=640&q=75",
   },
   {
-    name: "Kenton 1",
+    name: "ELEMIS",
     distance: 10,
     rating: 4,
     online: true,
+    desc:"Find the truth in skincare",
     discount: 18,
     image:
-      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/75dcd70e-cee3-418c-bf48-cef1907f658c.png&w=640&q=75",
+      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/e40ea579-c621-4e50-899c-0b3ffaa5005a.jpeg&w=640&q=75",
   },
   {
-    name: "FullCity 1",
+    name: "Myprotein",
     distance: 10,
     rating: 4,
     online: false,
+    desc:"Unwrap your ambition",
     discount: 10,
     image:
-      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/91c18c5d-0908-448e-beed-1fd162be2646.jpeg&w=640&q=75",
+      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/2996e477-0862-4071-a7ff-799cdfd74e4c.jpeg&w=640&q=75",
   },
   {
-    name: "Power Sport 2",
+    name: "Nine West",
     distance: 25,
     rating: 5,
     online: false,
+    desc:"Spring heels even",
     discount: 30,
     image:
-      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/bda6ff7d-5f43-48d5-a510-31ce59cfb77f.jpeg&w=640&q=75",
+      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/6fe83ad9-a450-4af2-9c49-fe067f451f32.png&w=640&q=75",
   },
   {
-    name: "Ride",
+    name: "Missguided",
     distance: 10,
     rating: 2,
     online: true,
+    desc:"Fresh looks",
     discount: 25,
     image:
-      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/e8c37185-6c61-4b37-9085-99c0573e8202.png&w=640&q=75",
+      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/2fb40b57-728b-4e11-b8e2-d3ab5180392c.png&w=640&q=75",
   },
   {
-    name: "Kenton 2",
+    name: "Lenovo",
     distance: 20,
     rating: 5,
     online: false,
+    desc:"Transform your world",
     discount: 5,
     image:
-      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/db0a8d13-efe1-4dc4-b267-a2dc8dd87cff.png&w=640&q=75",
+      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/2f20f515-a6e3-45a9-b0e1-f47d9a36da00.jpeg&w=640&q=75",
   },
   {
-    name: "FullCity",
+    name: "Kohl's",
     distance: 20,
     rating: 5,
     online: true,
+    desc:"Modern activewear",
     discount: 30,
     image:
-      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/7dac3b20-1714-48d4-957d-c1eb1014fa63.png&w=384&q=75",
+      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/2bf1b4c9-b374-40ec-98ed-c18e896154be.png&w=640&q=75",
+  },
+  {
+    name: "Saks OFF 5th",
+    distance: 10,
+    rating: 2,
+    online: false,
+    desc:"Fierce, fine jewelry",
+    discount: 15,
+    image:
+      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/7a44f1d9-4c53-47d8-bb97-21ae0dd810e7.png&w=384&q=75",
+  },
+  {
+    name: "Nike",
+    distance: 10,
+    rating: 2,
+    online: true,
+    desc:"Be unstoppable",
+    discount: 21,
+    image:"https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/234cd03c-e006-4cd8-9b6f-b34535d33b44.png&w=640&q=75",
+  },
+  {
+    name: "Feelunique",
+    distance: 20,
+    rating: 5,
+    online: false,
+    desc:"Everything you need for flawless skin",
+    discount: 20,
+    image:
+      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/00797fa3-0125-4fa6-81e6-73321640e4f7.png&w=640&q=75",
+  },
+  {
+    name: "Tommy Hilfiger",
+    distance: 20,
+    rating: 2,
+    online: true,
+    desc:"Even more fresh styles",
+    discount: 10,
+    image:
+      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/88ad0ecd-0015-45b0-80e1-ccdf88a3645e.jpeg&w=640&q=75",
+  },
+  {
+    name: "Cole Haan",
+    distance: 15,
+    rating: 4,
+    online: true,
+    desc:"Treat your feet",
+    discount: 10,
+    image:
+      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/bfb8346f-8876-42b6-81c4-b4823f5c54ae.jpeg&w=640&q=75",
+  },
+  {
+    name: "Jared The Galleria Of Jewelry",
+    distance: 17,
+    rating: 4,
+    online: false,
+    desc:"Shimmer and shine",
+    discount: 10,
+    image:
+      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/b61d18bb-16e8-49a2-9ebb-05ed2ead3b1c.jpeg&w=640&q=75",
+  },
+  {
+    name: "ELEMIS",
+    distance: 10,
+    rating: 4,
+    online: true,
+    desc:"Find the truth in skincare",
+    discount: 18,
+    image:
+      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/e40ea579-c621-4e50-899c-0b3ffaa5005a.jpeg&w=640&q=75",
+  },
+  {
+    name: "Myprotein",
+    distance: 10,
+    rating: 4,
+    online: false,
+    desc:"Unwrap your ambition",
+    discount: 10,
+    image:
+      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/2996e477-0862-4071-a7ff-799cdfd74e4c.jpeg&w=640&q=75",
+  },
+  {
+    name: "Nine West",
+    distance: 25,
+    rating: 5,
+    online: false,
+    desc:"Spring heels even",
+    discount: 30,
+    image:
+      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/6fe83ad9-a450-4af2-9c49-fe067f451f32.png&w=640&q=75",
+  },
+  {
+    name: "Missguided",
+    distance: 10,
+    rating: 2,
+    online: true,
+    desc:"Fresh looks",
+    discount: 25,
+    image:
+      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/2fb40b57-728b-4e11-b8e2-d3ab5180392c.png&w=640&q=75",
+  },
+  {
+    name: "Lenovo",
+    distance: 20,
+    rating: 5,
+    online: false,
+    desc:"Transform your world",
+    discount: 5,
+    image:
+      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/2f20f515-a6e3-45a9-b0e1-f47d9a36da00.jpeg&w=640&q=75",
+  },
+  {
+    name: "Kohl's",
+    distance: 20,
+    rating: 5,
+    online: true,
+    desc:"Modern activewear",
+    discount: 30,
+    image:
+      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/2bf1b4c9-b374-40ec-98ed-c18e896154be.png&w=640&q=75",
+  },
+  {
+    name: "Saks OFF 5th",
+    distance: 10,
+    rating: 2,
+    online: false,
+    desc:"Fierce, fine jewelry",
+    discount: 15,
+    image:
+      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/7a44f1d9-4c53-47d8-bb97-21ae0dd810e7.png&w=384&q=75",
+  },
+  {
+    name: "Nike",
+    distance: 10,
+    rating: 2,
+    online: true,
+    desc:"Be unstoppable",
+    discount: 21,
+    image:"https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/234cd03c-e006-4cd8-9b6f-b34535d33b44.png&w=640&q=75",
+  },
+  {
+    name: "Feelunique",
+    distance: 20,
+    rating: 5,
+    online: false,
+    desc:"Everything you need for flawless skin",
+    discount: 20,
+    image:
+      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/00797fa3-0125-4fa6-81e6-73321640e4f7.png&w=640&q=75",
+  },
+  {
+    name: "Tommy Hilfiger",
+    distance: 20,
+    rating: 2,
+    online: true,
+    desc:"Even more fresh styles",
+    discount: 10,
+    image:
+      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/88ad0ecd-0015-45b0-80e1-ccdf88a3645e.jpeg&w=640&q=75",
+  },
+  {
+    name: "Cole Haan",
+    distance: 15,
+    rating: 4,
+    online: true,
+    desc:"Treat your feet",
+    discount: 10,
+    image:
+      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/bfb8346f-8876-42b6-81c4-b4823f5c54ae.jpeg&w=640&q=75",
+  },
+  {
+    name: "Jared The Galleria Of Jewelry",
+    distance: 17,
+    rating: 4,
+    online: false,
+    desc:"Shimmer and shine",
+    discount: 10,
+    image:
+      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/b61d18bb-16e8-49a2-9ebb-05ed2ead3b1c.jpeg&w=640&q=75",
+  },
+  {
+    name: "ELEMIS",
+    distance: 10,
+    rating: 4,
+    online: true,
+    desc:"Find the truth in skincare",
+    discount: 18,
+    image:
+      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/e40ea579-c621-4e50-899c-0b3ffaa5005a.jpeg&w=640&q=75",
+  },
+  {
+    name: "Myprotein",
+    distance: 10,
+    rating: 4,
+    online: false,
+    desc:"Unwrap your ambition",
+    discount: 10,
+    image:
+      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/2996e477-0862-4071-a7ff-799cdfd74e4c.jpeg&w=640&q=75",
+  },
+  {
+    name: "Nine West",
+    distance: 25,
+    rating: 5,
+    online: false,
+    desc:"Spring heels even",
+    discount: 30,
+    image:
+      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/6fe83ad9-a450-4af2-9c49-fe067f451f32.png&w=640&q=75",
+  },
+  {
+    name: "Missguided",
+    distance: 10,
+    rating: 2,
+    online: true,
+    desc:"Fresh looks",
+    discount: 25,
+    image:
+      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/2fb40b57-728b-4e11-b8e2-d3ab5180392c.png&w=640&q=75",
+  },
+  {
+    name: "Lenovo",
+    distance: 20,
+    rating: 5,
+    online: false,
+    desc:"Transform your world",
+    discount: 5,
+    image:
+      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/2f20f515-a6e3-45a9-b0e1-f47d9a36da00.jpeg&w=640&q=75",
+  },
+  {
+    name: "Kohl's",
+    distance: 20,
+    rating: 5,
+    online: true,
+    desc:"Modern activewear",
+    discount: 30,
+    image:
+      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/2bf1b4c9-b374-40ec-98ed-c18e896154be.png&w=640&q=75",
     },
-  {
-    name: "Power Sport",
-    distance: 10,
-    rating: 2,
-    online: false,
-    discount: 15,
-    image:
-      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/faf74a17-6aa5-4e39-a612-3c15bf695ef8.png&w=640&q=75",
-  },
-  {
-    name: "FullCity 2",
-    distance: 10,
-    rating: 2,
-    online: true,
-    discount: 21,
-    image:
-      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/28272ba4-2cce-4468-9caa-eefeec516042.jpeg&w=640&q=75",
-  },
-  {
-    name: "Ride 2",
-    distance: 20,
-    rating: 5,
-    online: false,
-    discount: 20,
-    image:
-      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/e1f309cd-eef6-484f-ab54-25f48c37ab34.png&w=640&q=75",
-  },
-  {
-    name: "Kenton",
-    distance: 20,
-    rating: 2,
-    online: true,
-    discount: 10,
-    image:
-      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/574c903f-615d-49de-aa97-5c9d25381136.png&w=640&q=75",
-  },
-  {
-    name: "Power Sport 1",
-    distance: 15,
-    rating: 4,
-    online: true,
-    discount: 10,
-    image:
-      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/4c263e2e-e3a4-4d97-ab81-2659300d344f.png&w=640&q=75",
-  },
-  {
-    name: "Ride 1",
-    distance: 17,
-    rating: 4,
-    online: false,
-    discount: 10,
-    image:
-      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/83205c67-8a2c-4d31-b5c8-da21880f9483.png&w=640&q=75",
-  },
-  {
-    name: "Kenton 1",
-    distance: 10,
-    rating: 4,
-    online: true,
-    discount: 18,
-    image:
-      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/75dcd70e-cee3-418c-bf48-cef1907f658c.png&w=640&q=75",
-  },
-  {
-    name: "FullCity 1",
-    distance: 10,
-    rating: 4,
-    online: false,
-    discount: 10,
-    image:
-      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/91c18c5d-0908-448e-beed-1fd162be2646.jpeg&w=640&q=75",
-  },
-  {
-    name: "Power Sport 2",
-    distance: 25,
-    rating: 5,
-    online: false,
-    discount: 30,
-    image:
-      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/bda6ff7d-5f43-48d5-a510-31ce59cfb77f.jpeg&w=640&q=75",
-  },
-  {
-    name: "Ride",
-    distance: 10,
-    rating: 2,
-    online: true,
-    discount: 25,
-    image:
-      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/e8c37185-6c61-4b37-9085-99c0573e8202.png&w=640&q=75",
-  },
-  {
-    name: "Kenton 2",
-    distance: 20,
-    rating: 5,
-    online: false,
-    discount: 5,
-    image:
-      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/db0a8d13-efe1-4dc4-b267-a2dc8dd87cff.png&w=640&q=75",
-  },
-  {
-    name: "FullCity",
-    distance: 20,
-    rating: 5,
-    online: true,
-    discount: 30,
-    image:
-      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/7dac3b20-1714-48d4-957d-c1eb1014fa63.png&w=384&q=75",
-    },
-  {
-    name: "Power Sport",
-    distance: 10,
-    rating: 2,
-    online: false,
-    discount: 15,
-    image:
-      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/faf74a17-6aa5-4e39-a612-3c15bf695ef8.png&w=640&q=75",
-  },
-  {
-    name: "FullCity 2",
-    distance: 10,
-    rating: 2,
-    online: true,
-    discount: 21,
-    image:
-      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/28272ba4-2cce-4468-9caa-eefeec516042.jpeg&w=640&q=75",
-  },
-  {
-    name: "Ride 2",
-    distance: 20,
-    rating: 5,
-    online: false,
-    discount: 20,
-    image:
-      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/e1f309cd-eef6-484f-ab54-25f48c37ab34.png&w=640&q=75",
-  },
-  {
-    name: "Kenton",
-    distance: 20,
-    rating: 2,
-    online: true,
-    discount: 10,
-    image:
-      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/574c903f-615d-49de-aa97-5c9d25381136.png&w=640&q=75",
-  },
-  {
-    name: "Power Sport 1",
-    distance: 15,
-    rating: 4,
-    online: true,
-    discount: 10,
-    image:
-      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/4c263e2e-e3a4-4d97-ab81-2659300d344f.png&w=640&q=75",
-  },
-  {
-    name: "Ride 1",
-    distance: 17,
-    rating: 4,
-    online: false,
-    discount: 10,
-    image:
-      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/83205c67-8a2c-4d31-b5c8-da21880f9483.png&w=640&q=75",
-  },
-  {
-    name: "Kenton 1",
-    distance: 10,
-    rating: 4,
-    online: true,
-    discount: 18,
-    image:
-      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/75dcd70e-cee3-418c-bf48-cef1907f658c.png&w=640&q=75",
-  },
-  {
-    name: "FullCity 1",
-    distance: 10,
-    rating: 4,
-    online: false,
-    discount: 10,
-    image:
-      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/91c18c5d-0908-448e-beed-1fd162be2646.jpeg&w=640&q=75",
-  },
-  {
-    name: "Power Sport 2",
-    distance: 25,
-    rating: 5,
-    online: false,
-    discount: 30,
-    image:
-      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/bda6ff7d-5f43-48d5-a510-31ce59cfb77f.jpeg&w=640&q=75",
-  },
-  {
-    name: "Ride",
-    distance: 10,
-    rating: 2,
-    online: true,
-    discount: 25,
-    image:
-      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/e8c37185-6c61-4b37-9085-99c0573e8202.png&w=640&q=75",
-  },
-  {
-    name: "Kenton 2",
-    distance: 20,
-    rating: 5,
-    online: false,
-    discount: 5,
-    image:
-      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/db0a8d13-efe1-4dc4-b267-a2dc8dd87cff.png&w=640&q=75",
-  },
-  {
-    name: "FullCity",
-    distance: 20,
-    rating: 5,
-    online: true,
-    discount: 30,
-    image:
-      "https://www.klarna.com/b2c/_next/image/?url=https://d2r76poigfg60j.cloudfront.net/7dac3b20-1714-48d4-957d-c1eb1014fa63.png&w=384&q=75",
-  },
 ];

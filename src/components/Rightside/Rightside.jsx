@@ -14,8 +14,13 @@ function Rightside() {
           <div class="dealsCount">{`${data.length} deals`}</div>
           <div className="img-div">
         {data.map((el, i) => (
-          <div key={i}>
-                <img class="itemImg" src={el.image} alt="img"></img>
+            <div key={i}>
+                <div class="itemDiv"><img class="itemImg" src={el.image} alt="img"></img>
+                <div class="dis">
+                    <h3 className="upto">Up to</h3>
+                    <h1 className="disc">{el.discount}% <span className="off">off</span></h1>
+                </div></div>
+
                 <p>{el.name}</p>
                 <p>{el.desc}</p>
           </div>

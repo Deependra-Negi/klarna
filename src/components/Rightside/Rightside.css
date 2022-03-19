@@ -20,15 +20,44 @@
     font-size: 1.3rem;
     font-weight: bolder;
 }
+.itemDiv{
+    background-color: transparent;
+    position: relative;
+}
 .itemImg:hover{
     box-shadow: rgb(145, 145, 145) 0px 2px 6px 0px;
-    transition: box-shadow 0.3s ease-in-out;
+    transition: box-shadow 0.3s ease-in-out; 
 }
 .itemImg{
+    border-radius: 15px;
+}
+
+.itemImg{
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 42.11%);
-    /* position: absolute; */
-    inset: 0px;
     z-index: 2;
+    width: 100%;
+    border-radius: 15px;
+    margin: 0;
+}
+
+.dis{
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    z-index: 10;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+}
+.upto{
+    margin: 0%;
+    font-size: 2rem;
+}
+.disc{
+    margin: 0%;
+    font-size: 3rem;
+}
+.off{
+ font-size: 2rem;   
 }
 
 img{

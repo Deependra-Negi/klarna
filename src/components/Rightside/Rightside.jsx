@@ -1,8 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Rightside.css";
 import { data } from "../../data/data.js";
+import Modal from "../Modal/Modal";
 
 function Rightside() {
+    const [modal, setModal] = useState(false)
+    const [dataa, setDataa] = useState([]);
+    
+    const handleOpen = (...el) => {
+        setModal(true);
+        setDataa(el)
+    }
+    const handleClose = (e) => {
+        setModal(false);
+        setDataa([])
+    }
+
   return (
     <div className="right-aside">
       <div className="searchbar-div">
@@ -14,7 +27,7 @@ function Rightside() {
           <div className="dealsCount">{`${data.length} deals`}</div>
           <div className="img-div">
         {data.map((el, i) => (
-            <div key={i}>
+            <div key={i} onClick={()=>handleOpen(el.name, el.desc, el.image, el.discount)}>
                 <div className="itemDiv">
                     <img className="itemImg" src={el.image} alt="img"></img>
                     <div className="dis">
@@ -27,7 +40,8 @@ function Rightside() {
                 <p>{el.desc}</p>
           </div>
         ))}
-      </div>
+              {modal && <Modal dataa={dataa} fn={handleClose}/>}
+        </div>
     </div>
   );
 }

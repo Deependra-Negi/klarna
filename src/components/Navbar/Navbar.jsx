@@ -21,12 +21,15 @@ function Navbar() {
   return (
     <>
       <div className="navbar">
-        <div>
-          <h3>
+        <div style={{display:"flex", padding:"1.5rem", justifyContent:"start"}}>
+          <div style={{marginRight:"50px"}}>
             <img id="logo" src="black.svg" alt="Klarna" />
-            </h3>{" "}
-          <h5>Shop</h5> <h5>How it works</h5> <h5>Play in 4</h5>{" "}
-          <h5>The shopping app</h5> <h5>Help</h5>
+          </div>{" "}
+          <div className="navtab" style={{display:"flex", gap:"30px", fontWeight:"bold", cursor:"pointer", fontSize:"1rem", textOverflow: "ellipsis",whiteSpace:"nowrap"}}>
+            <div>Shop</div> <div>How it works</div> <div>Play in 4</div>{" "}
+            <div>The shopping app</div> <div>Help</div>
+          </div>
+          
         </div>
         <div>
           <button>Log in</button>

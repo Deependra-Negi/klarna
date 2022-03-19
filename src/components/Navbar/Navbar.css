@@ -9,6 +9,15 @@
   top: 0;
   z-index: 1000;
 }
+.navtab{
+  display:flex;
+  gap:30px;
+  font-weight:bold;
+  cursor:pointer;
+  font-size:1rem;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
 #logo{
   width: 100px;
 }
@@ -73,7 +82,10 @@
   border-bottom: 1px solid rgb(221, 215, 215);
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
+  .navtab div{
+    display: none;
+  }
   .navbar h5 {
     display: none;
   }

@@ -23,6 +23,7 @@
 .itemDiv{
     background-color: transparent;
     position: relative;
+    cursor: pointer;
 }
 .itemImg:hover{
     box-shadow: rgb(145, 145, 145) 0px 2px 6px 0px;

@@ -1,9 +1,8 @@
 
 .footer{
-    /* height: 500px; */
     width: 100%;
     background-color: #0E0E0F;
-    padding: 3rem 2rem;
+    padding: 3rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
